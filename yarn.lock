@@ -66,19 +66,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@magichourhq/api-types@npm:0.1.5":
-  version: 0.1.5
-  resolution: "@magichourhq/api-types@npm:0.1.5"
-  checksum: 10/0e6428a96d0c94791fb2a5482e779ea2eaddad102ce735cce8e1333ae3d6b994ab386f6ada250042b77ef9144742bf0f7adeaf47e6ef73735d5f2c2d30a26bba
+"@magichourhq/api-types@npm:0.2.0":
+  version: 0.2.0
+  resolution: "@magichourhq/api-types@npm:0.2.0"
+  checksum: 10/203940e63c30bf2608fd0d8c39c8bd648f888906d4f4cf6ce9b042dee5e6ae92e4078041ba101821b117ba8b1d09684bd7ffbebb6f0d54661a330420d1be6dd1
   languageName: node
   linkType: hard
 
-"@magichourhq/browser-client@npm:^0.3.8":
-  version: 0.3.8
-  resolution: "@magichourhq/browser-client@npm:0.3.8"
+"@magichourhq/browser-client@npm:^0.3.9":
+  version: 0.3.9
+  resolution: "@magichourhq/browser-client@npm:0.3.9"
   dependencies:
-    "@magichourhq/api-types": "npm:0.1.5"
-  checksum: 10/a18bb05117924ceb87ca37def309562d5290748be583ba1bdc3346330b0e00697e2a54df7fce0810fa05e35e2f106b5b23f3c151ee916a5b68708b759ca54b65
+    "@magichourhq/api-types": "npm:0.2.0"
+  checksum: 10/ddb8c1f225efe836d82b806c5bbb63542d710212cbe71fbff05faee99f0e0881c527686630ec733818ef8319684339dd465e26f1858397632a649f9a1c092400
   languageName: node
   linkType: hard
 
@@ -86,7 +86,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@magichourhq/editor-kit@workspace:."
   dependencies:
-    "@magichourhq/browser-client": "npm:^0.3.8"
+    "@magichourhq/browser-client": "npm:^0.3.9"
     "@types/node": "npm:^24.0.0"
     typescript: "npm:7.0.2"
     vite: "npm:^8.3.8"
